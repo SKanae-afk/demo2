@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="625.0" prefWidth="1005.0" style="-fx-background-color: #565698;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.Menu">
+   <children>
+      <Label layoutX="401.0" layoutY="14.0" prefHeight="55.0" prefWidth="235.0" text="Main Menu" textFill="WHITE">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Separator layoutX="502.0" layoutY="67.0" orientation="VERTICAL" prefHeight="564.0" prefWidth="0.0" />
+      <Separator layoutX="19.0" layoutY="281.0" prefHeight="3.0" prefWidth="471.0" />
+      <Separator layoutX="519.0" layoutY="283.0" prefHeight="3.0" prefWidth="471.0" />
+      <ImageView fitHeight="252.0" fitWidth="300.0" layoutX="70.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/1.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="261.0" fitWidth="271.0" layoutX="791.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/6.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="316.0" fitWidth="277.0" layoutX="19.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/3.JPG" />
+         </image></ImageView>
+      <Label layoutX="386.0" layoutY="76.0" prefHeight="44.0" prefWidth="69.0" text="Plain">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+      <Label layoutX="539.0" layoutY="140.0" prefHeight="44.0" prefWidth="194.0" text="Plain with seeds">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Label layoutX="255.0" layoutY="296.0" prefHeight="44.0" prefWidth="194.0" text="With seeds ">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <ImageView fitHeight="329.0" fitWidth="305.0" layoutX="532.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/New-York-Style-Bagels.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="386.0" layoutY="106.0" prefHeight="44.0" prefWidth="69.0" text="Bagel">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="271.0" layoutY="333.0" text="and cheese cream">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="386.0" layoutY="174.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="2$">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="525.0" layoutY="76.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="3$">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="255.0" layoutY="556.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="4$">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="846.0" layoutY="545.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="5$">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="834.0" layoutY="294.0" prefHeight="44.0" prefWidth="156.0" text="With seeds ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="863.0" layoutY="333.0" prefHeight="36.0" prefWidth="137.0" text="and greek">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="910.0" layoutY="369.0" text="yogurt">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="271.0" layoutY="382.0" prefHeight="137.0" prefWidth="199.0" text="Perfection, scrumptious, take a seat, grab a treat, food vibes only, your happy place. This is our best seller and we recommend it" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="832.0" layoutY="421.0" prefHeight="93.0" prefWidth="156.0" text="Best greek yogurt in the whole town!" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="525.0" layoutY="187.0" prefHeight="78.0" prefWidth="235.0" text="Seed Share will feature over 18 locally-grown" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="backBtn" layoutX="14.0" layoutY="18.0" mnemonicParsing="false" text="Back" />
+      <Label fx:id="LBL" layoutX="661.0" layoutY="22.0" prefHeight="17.0" prefWidth="61.0" />
+   </children>
+</AnchorPane>

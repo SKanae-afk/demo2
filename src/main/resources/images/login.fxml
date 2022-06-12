@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="921.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <PasswordField layoutX="54.0" layoutY="316.0" prefHeight="25.0" prefWidth="236.0" promptText="Password" />
+      <Button graphicTextGap="10.0" layoutX="126.0" layoutY="386.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="93.0" style="-fx-background-color: #139DA0;" text="Log in" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="126.0" layoutY="497.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="93.0" style="-fx-background-color: #139DA0;" text="Sing up">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField layoutX="54.0" layoutY="273.0" prefHeight="25.0" prefWidth="236.0" promptText="E-mail" />
+      <ImageView fitHeight="193.0" fitWidth="236.0" layoutX="76.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@spotify-download-logo-30.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="54.0" layoutY="306.0" prefHeight="0.0" prefWidth="236.0" />
+      <Separator layoutX="313.0" layoutY="10.0" orientation="VERTICAL" prefHeight="575.0" prefWidth="0.0" />
+      <CheckBox layoutX="54.0" layoutY="350.0" mnemonicParsing="false" text="Remember me" />
+      <ImageView fitHeight="416.0" fitWidth="583.0" layoutX="324.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1781744562.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="54.0" layoutY="441.0" prefHeight="3.0" prefWidth="236.0" />
+      <Label alignment="CENTER" layoutX="54.0" layoutY="459.0" prefHeight="25.0" prefWidth="236.0" style="-fx-background-color: DEDEDE;" text="Don't have an account?" textAlignment="CENTER" textFill="#3e723b">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="55.0" layoutY="236.0" prefHeight="17.0" prefWidth="236.0" style="-fx-background-color: DEDEDE;" text="Log in to continue." textAlignment="RIGHT" textFill="#1c21c3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="163.0" fitWidth="293.0" layoutX="324.0" layoutY="403.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="632.0" layoutY="403.0" prefHeight="25.0" prefWidth="259.0" style="-fx-background-color: #8AFF8A;" text="Play your new favourite song.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="755.0" layoutY="436.0" text="Or">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="633.0" layoutY="463.0" prefHeight="17.0" prefWidth="259.0" style="-fx-background-color: #8AFF8A;" text="Skip over and over.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="633.0" layoutY="443.0" prefHeight="3.0" prefWidth="107.0" />
+      <Label alignment="CENTER" layoutX="632.0" layoutY="496.0" prefHeight="17.0" prefWidth="259.0" text="Or">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="633.0" layoutY="530.0" prefHeight="17.0" prefWidth="259.0" style="-fx-background-color: #8AFF8A;" text="You can save your playlist.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="633.0" layoutY="504.0" prefHeight="3.0" prefWidth="107.0" />
+      <Separator layoutX="784.0" layoutY="445.0" prefHeight="3.0" prefWidth="107.0" />
+      <Separator layoutX="784.0" layoutY="503.0" prefHeight="3.0" prefWidth="107.0" />
+   </children>
+</AnchorPane>
