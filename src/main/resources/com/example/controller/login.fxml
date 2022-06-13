@@ -79,6 +79,6 @@
          </font>
       </Button>
       <Label fx:id="LBL" layoutX="373.0" layoutY="489.0" prefHeight="17.0" prefWidth="24.0" />
-      <Label fx:id="loginMessageLabel" layoutX="225.0" layoutY="400.0" prefHeight="17.0" prefWidth="33.0" />
+      <Label fx:id="loginMessageLabel" layoutX="69.0" layoutY="552.0" prefHeight="27.0" prefWidth="209.0" />
    </children>
 </AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="176.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="36.0" layoutY="14.0" prefHeight="70.0" prefWidth="527.0" text="Thank you for your order! We appreciate you!">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="137.0" text="From Ghenciu's hearth!" />
+      <Label layoutX="423.0" layoutY="130.0" text="Enjoy your meal!">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="42.0" layoutX="145.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/Heart-SG2001-transparent.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

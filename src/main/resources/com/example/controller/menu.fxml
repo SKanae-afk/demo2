@@ -58,22 +58,22 @@
             <Font size="25.0" />
          </font>
       </Label>
-      <Button layoutX="386.0" layoutY="174.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="2$">
+      <Button fx:id="btn2" layoutX="386.0" layoutY="174.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="2$">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="525.0" layoutY="76.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="3$">
+      <Button fx:id="btn3" layoutX="525.0" layoutY="76.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="3$">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="255.0" layoutY="556.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="4$">
+      <Button fx:id="btn4" layoutX="255.0" layoutY="556.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="4$">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <Button layoutX="846.0" layoutY="545.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="5$">
+      <Button fx:id="btn5" layoutX="846.0" layoutY="545.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="86.0" text="5$">
          <font>
             <Font size="25.0" />
          </font>

@@ -98,7 +98,7 @@ public class LogInController implements Initializable {
     private void checkLogin() {
 
         if(tfUser.getText().isEmpty() && pfPass.getText().isEmpty() ){
-            loginMessageLabel.setText("Please enter a correct username and password");
+            loginMessageLabel.setText("Enter correct username and password");
         }
         else{
             checkDb();

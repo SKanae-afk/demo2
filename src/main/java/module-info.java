@@ -12,6 +12,8 @@ module com.example {
     exports com.example.entity;
     exports com.example.dao;
     exports com.example.controller;
+    exports com.example.regex_enum;
+    opens com.example.regex_enum to javafx.fxml;
 
 
 }
