@@ -4,6 +4,7 @@ module com.example {
     requires java.sql;
     requires java.persistence;
     requires org.hibernate.orm.core;
+    requires org.junit.jupiter.api;
 
     opens  com.example.controller to javafx.fxml;
     opens com.example.dao;

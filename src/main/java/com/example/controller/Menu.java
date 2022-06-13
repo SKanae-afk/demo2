@@ -1,8 +1,6 @@
 package com.example.controller;
 
-import com.example.dao.UserService;
-import com.example.entity.UsersEntity;
-import javafx.event.ActionEvent;
+import com.example.regex_enum.Bagels;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -13,7 +11,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.ResourceBundle;
+import java.util.*;
 
 public class Menu implements Initializable {
     @FXML
@@ -34,16 +32,12 @@ public class Menu implements Initializable {
     @FXML
     private Label LBL;
 
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         goBack2();
         bt2(); bt3(); bt4(); bt5();
     }
-
-    btn2 = enum.Plain;
-    btn3 = enum.Seeds;
-    btn4 = enum.Cheese;
-    btn5 = enum.Yogurt;
 
     public void bt2(){
         btn2.setOnAction(e->{

@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.ResourceBundle;
+import java.util.*;
 
 public class MainMenuController implements Initializable {
 
@@ -20,10 +20,39 @@ public class MainMenuController implements Initializable {
     @FXML
     private Label LBL;
 
+    @FXML
+    private Label priceBtn;
+
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         switchScene();
         goBack2();
+        generatePrice();
+        createButton();
+    }
+
+    private void createButton(){
+        priceBtn.setText(generatePrice());
+    }
+
+    private String generatePrice() {
+        HashMap<Integer, String> priceMap = new HashMap<>();
+        priceMap.put(2, "PLAIN");
+        priceMap.put(3, "SEEDS");
+        priceMap.put(4, "CHEESE");
+        priceMap.put(5, "YOGURT");
+
+        List<Integer> lista = new ArrayList<>();
+        lista.add(2);
+        lista.add(3);
+        lista.add(4);
+        lista.add(5);
+
+        Collections.sort(lista);
+        lista.forEach(System.out::println);
+        return priceMap.get(lista.get(lista.size()-1));
+
     }
 
     private void switchScene(){

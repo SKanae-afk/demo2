@@ -2,6 +2,7 @@ package com.example.controller;
 
 import com.example.dao.UserService;
 import com.example.entity.UsersEntity;
+import com.example.regex_enum.RegeX;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -117,6 +118,9 @@ public class SignInController implements Initializable {
         }
         if(checkUsernameExistsInDb(tfUser.getText())) {
             idWrong.setText("Username already exists");
+        }
+        if(!RegeX.checkbox(tfUser.getText())){
+            idWrong.setText("Invalid username");
         }
         else {
             idWrong.setText("Congratulations! Account successfully created. You may log in now.");
